@@ -1,0 +1,106 @@
+*{
+    background-image: url(../../Module-1-HTML/Material/plain-color-background-oa448hphsg5cczd7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+   
+    color: aliceblue;
+    font-size: 35px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+h1:hover{
+     background-image: url(../../Module-1-HTML/Material/banner.jpg);
+    border: 5px solid lime;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.a{
+   
+    color: aliceblue ;
+    font-size: 35px;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 2px;
+    position: relative;
+}
+
+#a1{
+    color: white;
+    margin: 50px;
+}
+#a1:hover{
+    background-image: url(../Material_images/Dark-galaxy-images.jpeg);
+    
+}
+#a2{
+    color: white;
+    margin: 50px;
+}
+#a2:hover{
+    background-image: url(../Material_images/Dark-galaxy-images.jpeg);
+    
+}
+#a3{
+    color: white;
+    margin: 50px;
+}
+#a3:hover{
+    background-image: url(../Material_images/Dark-galaxy-images.jpeg);
+    
+}
+#a4{
+    color: white;
+    margin: 50px;
+}
+#a4:hover{
+    background-image: url(../Material_images/Dark-galaxy-images.jpeg);
+    
+}
+#a5{
+    color: white;
+    margin: 50px;
+}
+#a5:hover{
+    background-image: url(../Material_images/Dark-galaxy-images.jpeg);
+    
+}
+.main{ width: 100%;
+    
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Courier New';
+}
+.img{
+    width: 50%;
+    width: 200px;
+    height: 200px;
+    padding:10px;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 20px;
+}
+.img:hover{
+    border: 5px solid rgb(201, 248, 32);
+    border-radius: 30px;
+    /* position: absolute; */
+}
+.p{
+    background-color: cadetblue;
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    right: 250px;
+    top: 250px;
+}
+h2::first-letter{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+  }
+/* p{
+background-color: brown;
+} */
