@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Table In CSS</title>
+    <!-- Table In CSS -->
+    
+    <style>
+        table, td{
+            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 50%;
+            height: 500px;
+            text-align: center;
+        }
+
+        /* tr:nth-child(2n){ */
+        /* tr:nth-child(3n){ */
+        /* tr:nth-child(even){ */
+
+        tr:nth-child(odd){
+            background-color: teal;
+            color: khaki;
+        }
+        tr:nth-child(2n+1){
+            background-color: rgb(43, 0, 128);
+            color: khaki;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table In CSS</h1>
+    <hr>
+    <table>
+        <tr>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+        </tr>
+        <tr>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+        </tr>
+        <tr>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+        </tr>
+        <tr>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+        </tr>
+        <tr>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+            <td>Item</td>
+        </tr>
+       
+    </table>
+</body>
+</html>
