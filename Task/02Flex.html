@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex In CSS</title>
+    <!-- Display Flex in CSS -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background : cornflowerblue;
+        }
+        h1{ 
+            text-align: center;
+            color: aliceblue;
+        }
+        .container{
+            border: 2px solid black;
+            width: 100%;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .box1{
+            width: 400px;
+            height: 120px;
+            background-color: rgb(104, 114, 109);
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 10px;
+            
+        }
+        .box2{
+            width: 90%;
+            height: 120px;
+            background-color: slategrey;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+        .box3{
+            width: 90%;
+            height: 120px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            align-items: center;
+            background-color: rgb(151, 121, 110);
+        }
+        .b1row1{
+            width: 250px;
+            height: 25px;
+            border: 2px solid black;
+        }
+        .b1row2{
+            width: 350px;
+            height: 35px;
+            border: 2px solid black;
+        }
+        .b2row1{
+            width: 49%;
+            height: 110px;
+            border: 2px solid black;
+            
+        }
+        .b2row2{
+            width: 49%;
+            height: 110px;
+            border: 2px solid black;
+        }
+        .b3row1{
+            width: 24%;
+            height: 110px;
+            border: 2px solid black;
+            /* background:url(../Material_images/loading.png) center; */
+        }
+        .b3row2{
+            width: 24%;
+            height: 110px;
+            border: 2px solid black;
+        }
+        .b3row3{
+            width: 24%;
+            height: 110px;
+            border: 2px solid black;
+            /* background:url(../Material_images/bird.png) top; */
+        }
+        .b3row4{
+            width: 24%;
+            height: 110px;
+            border: 2px solid black;
+        }
+        img{
+            width: 100%;
+            height: 105px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Display : Flex In CSS</h1>
+    <hr>
+    <div class="container">
+        <div class="box1">
+            <div class="b1row1">Display Flex.. task.</div>
+            <div class="b1row2">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+        </div>
+        <div class="box2">
+            <div class="b2row1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae dicta sit quaerat aliquam aspernatur 
+                necessitatibus? Facilis, illum! Laudantium possimus maxime beatae odit quaerat esse natus.lorem</div>
+            <div class="b2row2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eum tenetur beatae, accusamus,
+                 quidem veniam debitis recusandae officia adipisci explicabo et laborum, commodi asperiores impedit.</div>
+        </div>
+        <div class="box3">
+            <div class="b3row1">
+                <img src="../Material_images/loading.png" alt="">
+            </div>
+            <div class="b3row2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quidem 
+                                eum molestiae, at cupiditate iste ipsum nesciunt ipsam perspiciatis odit.</div>
+            <div class="b3row3">
+                <img src="../Material_images/bird.png" alt="">
+            </div>
+            <div class="b3row4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ab distinctio,
+                                     nobis quod nostrum ipsa ullam quidem. Dignissimos, blanditiis alias.</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
