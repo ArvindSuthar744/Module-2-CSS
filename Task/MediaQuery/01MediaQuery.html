@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <!-- CSS -->
+    <style>
+         /* .main{
+            width: 100%;
+            height: 500px;
+            background-color: rgb(236, 30, 23);
+            color: aliceblue;
+            display: flex;
+            flex-direction: row;
+        }
+        div[class*='box']{
+            
+            background-color: rgb(211, 36, 188);
+            width: 100px;
+            height: 100px;
+            border: 5px solid black;
+            margin: 10px auto;
+            content: "original";
+        } */
+        .main{
+            width: 100%;
+            height: 500px;
+            background-color: rgb(54, 71, 228);
+            color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+            /* flex-wrap: nowrap; */
+        }
+        .box:nth-child(2) {
+            height: 200px;
+            width: 200px;
+            border: solid black 2px;
+            background-color: aqua;
+        }
+        /* .main::before{
+            content: "original";
+        } */
+
+@media only screen and (max-width:576px){
+    .main{
+            width: 80vw;
+            height: 500px;
+            border: solid black 2px;
+            /* flex-wrap: nowrap; */
+        }
+      .main .box{
+            
+            background-color: rgb(165, 86, 153); 
+            width:70vw;
+          
+        }
+    
+}
+
+        @media (min-width: 576px) {
+            .main{
+            width: 100%;
+            height: 500px;
+            background-color: rgb(61, 192, 90);
+            color: aliceblue;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            overflow: auto;
+        }
+        div[class*='box']{
+            
+            background-color: rgb(21, 132, 175); 
+            width: 200px;
+            height: 100px;
+            border: 5px solid black;
+            /* margin: 25px auto; */
+            /* gap: 10px; */
+            content: 576px;
+            /* position: sticky; */
+        }
+        /* .main::before{
+            content: "567px";
+        } */
+        }
+        
+ 
+      @media (min-width: 768px) {
+        .main{
+            width: 100%;
+            background-color: rgb(17, 83, 224);
+            color: aliceblue;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+        div[class*='box']{
+            
+            background-color: rgb(211, 36, 188);
+            width: 210px;
+            height: 100px;
+            border: 5px solid black;
+            margin: 10% auto;
+            
+        }
+        /* .main::before{
+            content: "768px";
+        } */
+      }
+
+      @media (min-width: 992px){
+        .main{
+            width: 100%;
+            background-color: rgb(77, 190, 92);
+            color: aliceblue;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        div[class*='box']{
+            
+            background-color: rgb(211, 36, 188);
+            width: 200px;
+            height: 100px;
+            border: 5px solid black;
+            margin: 10% auto;
+            content:992px;
+        }
+        /* .main::before{
+            content: "992px";
+        } */
+      }
+
+
+
+      @media (min-width: 1200px) {
+        .main{
+            width: 100%;
+            background-color: rgb(144, 179, 49);
+            color: aliceblue;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        div[class*='box']{
+            
+            background-color: rgb(211, 36, 188);
+            width: 150px;
+            height: 150px;
+            border: 5px solid black;
+            margin: 10% auto;
+            gap: 10px;
+            content: 1200px;
+        }
+        /* .main::before{
+            content: "1200px";
+        } */
+      }
+        
+
+     
+      @media (min-width: 1400px){
+        .main{
+            width: 100%;
+            background-color: rgb(236, 30, 23);
+            color: aliceblue;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        div[class*='box']{
+            
+            background-color: rgb(211, 36, 188);
+            width: 300px;
+            height: 250px;
+            border: 5px solid black;
+            margin: 10% auto;
+            gap: 10px;
+            
+        }
+        /* .main::before{
+            content: "1400px";
+        } */
+      }   
+    
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="box-1">box-1</div>
+        <div class="box-2">box-2</div>
+        <div class="box-3">box-3</div>
+        <div class="box-4">box-4</div>
+    </div>
+</body>
+</html>
