@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics Selector</title>
+    <!-- internal css -->
+    <style>
+        /* universal selector */
+        * {
+
+            font-size: 25px;
+        }
+
+        /* attribute selector */
+
+        div {
+            background-color: black;
+            color: aliceblue;
+
+        }
+
+        /* id selector */
+        #id-selector {
+            background-color: crimson;
+            color: aliceblue;
+
+        }
+
+        /* class-selector */
+        .class-selector {
+            background-color: steelblue;
+            color: brown;
+
+        }
+
+        /* atrribute selector */
+        div[class*="atrribute"] {
+            background-color: rgb(24, 151, 35);
+            color: rgb(57, 84, 173);
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Basics Selector</h1>
+    <hr>
+
+    <div>
+        <h2>Universal Selector </h2>
+        <h3>*{...}</h3>
+        <h3>Universal Selector se pure body ko select kar sakte hai.</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, asperiores?</h3>
+    </div>
+    <br>
+    <div id="id-selector">
+        <h2>Id Selector </h2>
+        <h3>#id{...}</h3>
+        <h3>Id Selector se body ke particular id ko select kar sakte hai.</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, asperiores?</h3>
+    </div>
+    <br>
+    <div class="class-selector">
+        <h2>Class Selector </h2>
+        <h3>.class{...}</h3>
+        <h3>Class Selector se body ke particular class ko select kar sakte hai.</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, asperiores?</h3>
+    </div>
+    <br>
+    <div>
+        <h2>Element Selector </h2>
+        <h3>tagname{...}</h3>
+        <h3>Element Selector se body ke particular Element(tagname) ko select kar sakte hai.</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, asperiores?</h3>
+    </div>
+    <br>
+    <div>
+        <h2 class="atrribute-4">Attribute Selector </h2>
+        <h3 class="atrribute-4">Div[class*="box"]{...}</h3>
+        <h3 class="atrribute-4">Attribute Selector se body ke ek particular class ke attribute ko select kar sakte hai.</h3>
+        <h3 class="atrribute-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, asperiores?</h3>
+    </div>
+
+
+
+</body>
+
+</html>

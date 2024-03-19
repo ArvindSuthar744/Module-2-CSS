@@ -10,7 +10,7 @@
     background: url(flower1.1.png) ;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 1380px 700px;
+    background-size: 100% 700px;
     /* height: 650px; */
    
 }
@@ -27,14 +27,18 @@
     justify-content: space-around;
     /* font-size: 25px; */
     height: 50px;
-    width: 1200px;
+    width: 90%;
     margin: 0 auto;
     
     /* margin: 35px auto; */
     /* background-color: rgb(77, 158, 131); */
 }
+/* .nav-wrap{
+    flex-wrap: wrap;
+    
+} */
 .yourlogo{
-    font-size: 22px;
+    /* font-size: 22px; */
 }
 .main3{
     display: flex;
@@ -104,6 +108,7 @@
     /* font-weight: 600; */
     border: none;
     font-size: 18px;
+    
 }
 .foot1{
     width: 100%;
@@ -285,7 +290,7 @@
 .lorem2{
     /* /* margin: 50px; */
     /* margin-top: 50px; */
-    padding: 60px; */
+    padding: 60px; 
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -504,4 +509,232 @@ li{
     text-align: right;
     background-color: rgb(54, 49, 49);
     padding: 0px 60px 0px 0px;
+}
+
+.checkbox-1{
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+.bars{
+    display: none ;
+    font-size: 30px;
+}
+    /* Media Query */
+
+
+@media (max-width: 500px) {
+
+    .checkbox-1{
+        display: block;
+        opacity: 0;
+    }
+    .bars{
+        display: block;
+        position: relative;
+       top: 20px;
+    }
+
+    .checkbox-1:checked+.nav h4{
+        display: block;
+     }
+
+
+    .nav h4{
+        display: none;
+    }
+
+    .main1{
+        background-size: 100% 550px;
+    }
+    .content1{
+        height: 450px;
+    }
+    .content2{
+        height: 0px;
+    }
+   
+    .fh1{
+        font-size: 28px;
+        margin-top: 45px;
+        margin-left: 35px;
+    }
+    .sh2{
+        font-size: 18px;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    .para1{
+        width: 260px;
+        margin-left: 35px;
+        font-size: 14px;
+    }
+    .button{
+        margin-left: 35px;
+       
+    }
+    #b1{
+        font-size: 13px;
+    }
+    #b2{
+        font-size: 13px;
+    }
+
+    .foot1{
+        padding: 23px;
+        font-size: 20px;
+    }
+
+    .pnav{
+        width: 340px;
+    }
+    .products{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .pro1{
+        gap: 15px;
+    }
+    .pro2{
+        gap: 15px;
+    }
+    .pro3{
+        gap: 15px;
+    }
+
+    .about-main{
+        flex-direction: column;
+       padding: 0px;
+       margin: 0 auto;
+    }
+    .fphoto{
+        padding-top:60px;
+        width: 100%;
+    }
+    .fphoto img{
+        width: 370px;
+        height: 450px;
+    }
+    .aboutus{
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .aboutus p{
+        width: 100%;
+    }
+    .lorem1{
+       padding-block: 100px;
+    }
+    .lorempara1{
+        width: 50%;
+        padding: 20px;
+    }
+
+
+    .lorem2{
+        padding: 10px;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .fphoto2{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .fphoto2 img{
+        width: 370px;
+        height: 450px;
+        /* border-radius: 30px; */
+    }
+    .lorempara2{
+        width: 80%;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .loremipsum{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .lorempara3{
+        width: 80%;
+
+    }
+    .lorempara3 h1{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .lorempara3 p{
+        font-size: 18px;
+    }
+    .fphoto3{
+        padding: 10px;
+    }
+    .fphoto3 img{
+        width: 370px;
+        
+    }
+    .lorem4{
+        padding-block: 30px;
+    }
+    .lorempara4{
+        width: 90%;
+        padding: 25px 10px 25px 50px;   
+    }
+    .newsletter{
+        padding-block: 0px;
+        padding-bottom: 20px;
+    }
+    .newspara{
+        width: 100%;
+    }
+    .footermain{
+        flex-direction: column;
+        gap: 15px;
+    }
+    li{
+        font-size: 15px;
+    }
+    .footermain h1{
+        font-size: 25px;
+    }
+    .footer1{
+        width:80%;
+         margin: 0 auto;
+    }
+    .footer2{
+        width: 80%;
+         margin: 0 auto;
+    }
+    .footer3{
+        width: 80%;
+         margin: 0 auto;
+         padding-bottom: 15px;
+    }
+
+    .subfooter{
+        padding: 0px;
+        text-align: center;
+    }
+    .footer-wrap{
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
