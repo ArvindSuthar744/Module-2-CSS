@@ -204,10 +204,14 @@
 
 @media (max-width : 550px) {
     
+    .nav{
+        /* width: 85%; */
+    }
     .nav-2{
         display: none;
     }
     .h-1{
+        width: 80%;
         flex-wrap: wrap;
         gap: 11px;
         padding-top: 15px;
@@ -217,6 +221,7 @@
         padding: 6px 13px;
     }
     .h-2{
+        /* width: 85%; */
         padding-block: 35px;
     }
     .h-2 h1{
