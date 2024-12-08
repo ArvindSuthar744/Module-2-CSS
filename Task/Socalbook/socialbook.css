@@ -200,7 +200,7 @@
     background-color: #0966f1d0;
     color: white;  
     font-size: 11px;
-    padding-block: 4px;
+    padding-block: 2px;
 }
 .e-text{
     height: 58px;
@@ -387,6 +387,7 @@
 .feed{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     padding-block: 15px;
 }
@@ -746,7 +747,7 @@
     
 
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
 
     /* navbar */
     
@@ -778,7 +779,7 @@
     }
     .story div[class*='st'] {
         width: 22%;
-        height: 155px;
+         height: 160px;  /* 28vh */
     }
     .st-1 img {
         left: 25%;
@@ -801,7 +802,7 @@
     }
     .feed {
         width: 95%;
-        gap: 15px;
+        gap: 10px;
     }
     .f-1 p{
         font-size: 10px;
